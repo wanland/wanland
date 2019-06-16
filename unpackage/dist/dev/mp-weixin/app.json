@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/trend/index",
+    "pages/signal/index",
+    "pages/mine/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "wanland",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabBar/home.png",
+        "selectedIconPath": "static/tabBar/homes.png",
+        "text": "村落"
+      },
+      {
+        "pagePath": "pages/trend/index",
+        "iconPath": "static/tabBar/trend.png",
+        "selectedIconPath": "static/tabBar/trends.png",
+        "text": "动向"
+      },
+      {
+        "pagePath": "pages/signal/index",
+        "iconPath": "static/tabBar/signal.png",
+        "selectedIconPath": "static/tabBar/signals.png",
+        "text": "信号"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "iconPath": "static/tabBar/mine.png",
+        "selectedIconPath": "static/tabBar/mines.png",
+        "text": "自己"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
